@@ -19,7 +19,7 @@ app.get('article-three',function (req,res){
     res.send('article three requested and will be served here');
 });
 app.get('/ui/madi.png', function (req, res) {
-  res.sendF:ile(path.join(__dirname, 'ui', 'madi.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'))_;
 });
 
 
